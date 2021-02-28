@@ -1,6 +1,6 @@
 ## Description
 
-Requirement is defined in ML_US_Requirement.pdf document.
+Requirement is defined in "BusinessRequirement/ML_US_Requirement.pdf" document.
 
 ## Development
 
@@ -21,9 +21,11 @@ $ docker-compose up
 $ docker-compose down
 ```
 2. run migration command to create db tables
+```
 $ npm run migration:run
+```
 
-## Run locally 
+## Run API locally 
 
 ```bash
 # 1. install project dependecies 
