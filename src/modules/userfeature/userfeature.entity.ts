@@ -12,6 +12,8 @@ export class UserFeatureEntity {
     @JoinColumn({ referencedColumnName: 'name' })
     feature: FeatureEntity
 
+    /*Based on requirement statement, it's not require to add enable property in junction table
+      but added if want to enable/disable certain feature for a user*/
     @Column()
     enable: boolean
 }
