@@ -67,9 +67,3 @@ $ npm run start:debug
 In order to access the swagger definition for this service, open a web browser and navigate to 
 ```http://localhost:3000/api-doc```
 
-## Note
-Did not excluded .env file.
-
-Area of improvement:
-1. Need few clarification in requirement to enhance functionality.
-2. Logging and unit test cases are not covered.
